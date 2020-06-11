@@ -1,1 +1,1 @@
-# -coco_ssd_tfjs
+# coco_ssd_objdetection
