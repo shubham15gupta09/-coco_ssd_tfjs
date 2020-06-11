@@ -28,7 +28,7 @@ Checkout more about mobilenet here : https://github.com/tensorflow/tfjs-models/t
 3 . Install Nodejs <br>
 4 . clone this project  and 
 ``` cd coco_ssd_objdetection ``` <br>
-5 . npm start <br>
+5 . sudo npm start <br>
 <b>Note</b> Now tested on Azure , Google Cloud  
 <br>
 <b>Note</b> you have to change the src for the image accordingly 
