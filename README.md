@@ -28,6 +28,6 @@ Checkout more about mobilenet here :
 3 . Install Nodejs <br>
 4 . clone this project  and * cd coco_ssd_objdetection * <br>
 5 . npm start <br>
-<b>Note</b> Now tested on Azure , Google Cloud and AWS 
+<b>Note</b> Now tested on Azure , Google Cloud  
 <br>
 <b>Note</b> you have to change the src for the image accordingly 
