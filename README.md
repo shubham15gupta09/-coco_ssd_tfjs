@@ -26,7 +26,8 @@ Checkout more about mobilenet here : https://github.com/tensorflow/tfjs-models/t
 1 . Create a VM on Google cloud / Azure  (No cloud war : Peace) <br> 
 2 . Open the SSH terminal ( you may have to use an external client like PuTTy for SSH)<br>
 3 . Install Nodejs <br>
-4 . clone this project  and * cd coco_ssd_objdetection * <br>
+4 . clone this project  and 
+``` cd coco_ssd_objdetection ``` <br>
 5 . npm start <br>
 <b>Note</b> Now tested on Azure , Google Cloud  
 <br>
