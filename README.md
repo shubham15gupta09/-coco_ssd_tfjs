@@ -1,7 +1,7 @@
-## coco_ssd_objdetection
+# coco_ssd_objdetection
 Its a Web App for Object Detection . <br>
 
-# Tech Used
+## Tech Used
 
 1 . Tensorflow , Tensorflow js , Pre-Trained Models<br>
 2 . JavaScript<br>
