@@ -10,7 +10,7 @@ Its a Web App for Object Detection . <br>
 
 ## Model Used : COCO-SSD 
 
-Checkout more about mobilenet here : https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd
+Checkout more about CoCo ssd here : https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd
 
 # How to use ?
 
