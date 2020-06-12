@@ -1,6 +1,7 @@
 # coco_ssd_objdetection
 Its a Web App for Object Detection . <br>
 
+### Deployed on https://detectobj.azurewebsites.net/
 ## Tech Used
 
 1 . Tensorflow , Tensorflow js , Pre-Trained Models<br>
