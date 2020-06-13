@@ -1,5 +1,5 @@
-# Issue Detected :
-The app becomes unresponsive sometime . 
+# NOTE : Issue Detected !!!!
+The app becomes unresponsive sometime . <br>
 Checkut the Issues in the Repository
 
 # coco_ssd_objdetection
