@@ -1,3 +1,7 @@
+# Issue Detected :
+The app becomes unresponsive sometime . 
+Checkut the Issues in the Repository
+
 # coco_ssd_objdetection
 Its a Web App for Object Detection . <br>
 
