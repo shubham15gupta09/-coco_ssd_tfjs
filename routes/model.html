@@ -4,25 +4,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"> </script>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"> </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
 </head>
 
 <body style="background-color: black;margin: 20px;color: aliceblue;text-align: center;">
 
-    <img id="img" src="./images/image.jpg" style="width: auto;height:50%;"></img><br><br>
-    <h3 style="color: yellow;border: 2px solid red;margin: 10px;padding: 10px;" id="output"><b>Result :</b></h3>
-    <h4 id="home" style="color: red;color: inherit;cursor:pointer; "></h4>
+    <img id="img" src="./images/image.jpg" style="width: 180px;height:150px;"></img><br><br>
+    <div id="output"></div>
+    <h2 id="home" style="color: red;color: inherit;cursor:pointer; "></h2>
 </body>
 <script>
     const img = document.getElementById('img');
     const outp = document.getElementById('output');
     const home = document.getElementById("home");
-    outp.innerHTML = "Please Wait ......";
+    outp.innerHTML = `<div class="ui active centered inline loader"></div>`;
     cocoSsd.load().then(model => {
         model.detect(img).then(predictions => {
             console.log('Predictions: ', predictions[0].class);
-            outp.innerHTML = "<b>Result : </b>" + predictions[0].class;
-            home.innerHTML = ` <a href=" / "> Delete the Image and Go Back to Home </a>`;
-
+            outp.innerHTML = `<h2> Result : " ${predictions[0].class} " </h2>`;
+            home.innerHTML = ` <a href=" / "> Delete Image and Go Back to Home </a>`;
         });
     });
 </script>
